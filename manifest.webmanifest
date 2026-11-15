@@ -1,0 +1,16 @@
+{
+  "name": "StetMine",
+  "short_name": "StetMine",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#09080e",
+  "theme_color": "#09080e",
+  "icons": [
+    {
+      "src": "assets/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

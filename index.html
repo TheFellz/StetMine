@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#09080e">
+  <meta name="description" content="StetMine — Minecraft 1.20.1 Forge. Собственная сборка, сервер и сообщество.">
+  <title>StetMine — Новый мир начинается здесь</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="intro" class="intro" aria-label="Заставка StetMine">
+    <div class="intro-stars"></div>
+    <div class="intro-orb"></div>
+    <img class="intro-logo" src="assets/logo.svg" alt="StetMine">
+    <div class="intro-ring ring-one"></div><div class="intro-ring ring-two"></div>
+  </div>
+
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="StetMine — главная">
+        <img src="assets/logo.svg" alt=""><span>STET<span class="brand-light">MINE</span></span>
+      </a>
+      <button class="mobile-menu" id="menuToggle" aria-label="Открыть меню">☰</button>
+      <nav id="mainNav">
+        <a href="#home" data-nav="home">Главная</a>
+        <a href="#game" data-nav="game">Игрокам</a>
+        <a href="#build" data-nav="build">Сборка</a>
+        <a href="#news" data-nav="news">Новости</a>
+        <a href="#skins" data-nav="skins">Скины</a>
+        <a href="#support" data-nav="support">Поддержка</a>
+      </nav>
+      <div class="header-actions" id="headerActions">
+        <a class="btn btn-ghost btn-small" href="#login">Войти</a>
+        <a class="btn btn-primary btn-small" href="#register">Создать аккаунт</a>
+      </div>
+    </header>
+
+    <main id="view" tabindex="-1"></main>
+
+    <footer class="footer">
+      <div class="footer-brand"><img src="assets/logo.svg" alt=""> <b>STETMINE</b></div>
+      <span>Свой мир. Свои правила. Твоя история.</span>
+      <span>© <span id="year"></span> StetMine</span>
+    </footer>
+  </div>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
